@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="icon" type="image/x-icon" href="/favicon-laundry.ico?v=3">
-<link rel="icon" type="image/png" href="/favicon-laundry.png?v=3">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Laundry Service Bangkok — 100 THB/kg | T&amp;Y Elite Mobility</title>
-  <meta name="description" content="Wash, dry, fold and pack laundry service in Ratchathewi Bangkok. 100 THB per kilogram, minimum 2 kg. Hotel and home pickup or delivery available.">
-  <link rel="canonical" href="https://www.tyelitemobility.com/laundry-service.html">
-  <link rel="alternate" hreflang="en" href="https://www.tyelitemobility.com/laundry-service.html">
-  <link rel="alternate" hreflang="th" href="https://www.tyelitemobility.com/th/laundry-service.html">
+  <title>Laundry Service Bangkok — 100 THB/kg | T&amp;Y Elite Laundry Service</title>
+  <meta name="description" content="T&Y Elite Laundry Service in Ratchathewi, Bangkok. Wash, dry, fold and pack for 100 THB/kg (minimum 2 kg). Hotel and home laundry collection and delivery available.">
+  <!-- Add canonical and hreflang URLs once the Cloudflare Pages address is confirmed. -->
+  <link rel="icon" href="/favicon-laundry.ico" sizes="any">
+  <link rel="icon" type="image/png" href="/favicon-laundry.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Laundry Service Bangkok | T&amp;Y Elite Mobility">
-  <meta property="og:description" content="Professional wash, dry, fold and pack laundry service in Ratchathewi, Bangkok. 100 THB/kg, minimum 2 kg. Hotel and home collection and delivery available.">
-  <meta property="og:url" content="https://www.tyelitemobility.com/laundry-service.html">
-  <meta property="og:image" content="https://www.tyelitemobility.com/Laverie4.jpg">
-  <meta property="og:image:alt" content="Laundry washing machines at T&amp;Y Elite Mobility in Bangkok">
-  <meta property="og:site_name" content="T&amp;Y Elite Mobility">
+  <meta property="og:title" content="Laundry Service Bangkok | T&amp;Y Elite Laundry Service">
+  <meta property="og:description" content="Wash, dry, fold and pack in Bangkok. 100 THB/kg, minimum 2 kg. Hotel and home collection and delivery available.">
+  <meta property="og:image" content="Laverie4.jpg">
+  <meta property="og:image:alt" content="Washing machines at T&Y Elite Laundry Service in Bangkok">
+  <meta property="og:site_name" content="T&amp;Y Elite Laundry Service">
   <meta property="og:locale" content="en_US">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "DryCleaningOrLaundry",
-    "name": "T&Y Elite Mobility Co., Ltd. — Laundry Service",
-    "description": "Wash, dry, fold and pack laundry service in Ratchathewi, Bangkok. 100 THB per kilogram, minimum 2 kg. Hotel and home collection and delivery available. No ironing service.",
-    "url": "https://www.tyelitemobility.com/laundry-service.html",
-    "telephone": "+66967718495",
-    "image": "https://www.tyelitemobility.com/Laverie4.jpg",
+    "name": "T&Y Elite Laundry Service",
+    "description": "Wash, dry, fold and pack laundry in Ratchathewi, Bangkok. 100 THB/kg, minimum 2 kg. Hotel and home collection and delivery available. No ironing service.",
+    "telephone": "+66641232436",
+    "image": "Laverie4.jpg",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "62/3 Thanon Phetchaburi, Khwaeng Thanon Phetchaburi",
@@ -50,169 +46,182 @@
   }
   </script>
   <style>
-    :root { --gold:#f4d98c; --text:#e0d5c3; --border:rgba(229,189,97,.52); }
+    :root { --gold:#b18a45; --gold-bright:#f4d98c; --ink:#171717; --border:rgba(155,111,40,.55); }
     * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; background:#08090a; }
+    html { scroll-behavior:smooth; background:#f8f8f6; }
     body {
       margin:0;
       font:500 15px/1.6 'Plus Jakarta Sans',Arial,sans-serif;
-      color:var(--text);
-      background-color:#08090a;
-      background-image:linear-gradient(rgba(0,0,0,.36),rgba(0,0,0,.472)),url('marbre-pc.jpg');
+      color:var(--ink);
+      background-color:#f8f8f6;
+      background-image:url('Marbre_blanc_pc.jpg');
       background-position:center top;
       background-size:100% auto;
       background-repeat:repeat-y;
     }
     a { color:inherit; }
     .wrap { width:min(1120px,calc(100% - 36px)); margin-inline:auto; }
-
-    /* Shared-style header: clean white lettering, no gold glow. */
-    .topbar { background:rgba(8,9,11,.96); border-bottom:1px solid rgba(229,189,97,.55); }
-    .topinner { display:flex; justify-content:space-between; align-items:center; gap:18px; padding:14px 0; }
-    .brand { flex-shrink:0; color:#fff5d8; font:400 21px/1.3 'Marcellus',Georgia,serif; letter-spacing:.035em; text-decoration:none; }
-    .brand small { display:block; color:#d9c79c; font:700 10px/1.3 'Plus Jakarta Sans',sans-serif; letter-spacing:.18em; margin-top:3px; }
-    .nav { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:10px 17px; }
-    .nav>a { color:#f3e8d4; text-decoration:none; font-size:12px; font-weight:600; white-space:nowrap; }
-    .nav>a:hover { color:#ffda81; }
-    /* LAUNDRY EN — Onglet actif */
-    .nav > a[href="laundry-service.html"] {
-      color: #F4D98C !important;
-      -webkit-text-fill-color: #F4D98C !important;
-      background: rgba(244,217,140,.10) !important;
-      border: 1px solid rgba(244,217,140,.75);
-      border-radius: 6px;
-      padding: 5px 8px;
-      font-weight: 700;
-    }
-    .v14-lang { display:inline-flex; align-items:center; gap:4px; margin-left:10px; white-space:nowrap; }
-    .v14-lang a { padding:5px 8px; border:1px solid #b18a4a; border-radius:5px; color:#e9ce94; text-decoration:none; font-size:12px; }
-    .v14-lang a[aria-current="page"] { background:rgba(200,155,76,.22); font-weight:800; }
-
-    /* The dark veil belongs ONLY to the heading, not to main or footer. */
-    .laundry-page { padding:24px 0 45px; }
-    .laundry-intro { position:relative; isolation:isolate; text-align:center; padding:12px 12px 18px; margin:0 auto 8px; }
-    .laundry-intro::before {
-      content:""; position:absolute; z-index:-1; pointer-events:none;
-      inset:-12px 0 -8px;
-      background:radial-gradient(ellipse 65% 75% at 50% 48%,rgba(0,0,0,.77) 0%,rgba(0,0,0,.48) 48%,transparent 100%);
-    }
-    .v13-title { font:500 clamp(27px,4vw,42px)/1.25 'Marcellus',Georgia,serif; color:#f4d98c; margin:0 auto 10px; }
-    .v13-lead { max-width:730px; margin:0 auto; color:#e0d5c3; line-height:1.65; }
-    .v13-two { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:17px; }
-    .v13-panel { min-width:0; background:linear-gradient(150deg,rgba(30,30,33,.96),rgba(11,12,14,.97)); border:1px solid var(--border); border-radius:13px; padding:clamp(16px,3vw,27px); margin:13px 0; color:#e0d5c3; }
-    .v13-panel h2 { color:#f4d98c; font:500 clamp(20px,2.5vw,26px)/1.35 'Marcellus',Georgia,serif; margin:0 0 12px; }
-    .v13-panel p { margin:10px 0; }
-    .v13-price { font-size:clamp(27px,4vw,39px); font-weight:800; color:#e0d5c3; margin:12px 0; }
-    .v13-small { color:#e0d5c3; font-size:12px; }
-    .v13-table { width:100%; border-collapse:collapse; }
-    .v13-table td { padding:10px; border-bottom:1px solid rgba(229,189,97,.24); }
-    .v13-table td:last-child { text-align:right; font-weight:700; white-space:nowrap; }
-    .delivery-price { color:#f4d98c; }
-    .v13-two>.v13-panel:nth-child(2) h2,
-    .v13-two>.v13-panel:nth-child(2) .v13-small { text-align:center; }
+    .topbar { border-bottom:1px solid var(--border); background:rgba(255,255,255,.88); }
+    .topinner { display:flex; justify-content:space-between; align-items:center; gap:16px; padding:13px 0; }
+    .brand { display:flex; align-items:center; gap:12px; min-width:0; text-decoration:none; }
+    .brand-logo { width:52px; height:52px; object-fit:contain; flex:none; }
+    .brand-text { color:var(--ink); font:400 clamp(17px,2.1vw,22px)/1.3 'Marcellus',Georgia,serif; letter-spacing:.025em; }
+    .brand-text small { display:block; color:#886523; font:700 10px/1.4 'Plus Jakarta Sans',sans-serif; letter-spacing:.12em; margin-top:3px; }
+    .lang { display:inline-flex; align-items:center; gap:6px; flex:none; }
+    .lang a { padding:5px 9px; border:1px solid var(--gold); border-radius:5px; color:var(--ink); background:rgba(255,255,255,.6); text-decoration:none; font-size:12px; font-weight:700; }
+    .lang a[aria-current="page"] { background:rgba(244,217,140,.45); }
+    .lang a:hover { background:#fff2cd; }
+    .laundry-page { padding:24px 0 40px; }
+    .section-heading { position:relative; isolation:isolate; text-align:center; padding:12px 12px 18px; margin:0 auto 8px; }
+    .section-heading::before { content:""; position:absolute; z-index:-1; pointer-events:none; inset:-12px 0 -8px; background:radial-gradient(ellipse 65% 75% at 50% 48%,rgba(255,255,255,.94) 0%,rgba(255,255,255,.62) 50%,transparent 100%); }
+    .section-title { font:500 clamp(27px,4vw,42px)/1.25 'Marcellus',Georgia,serif; color:var(--gold); margin:0 auto 10px; }
+    .lead { max-width:730px; margin:0 auto; color:var(--ink); line-height:1.65; }
+    .two { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:17px; }
+    .panel { min-width:0; background:linear-gradient(150deg,rgba(255,255,255,.92),rgba(250,249,246,.94)); border:1px solid var(--border); border-radius:13px; padding:clamp(16px,3vw,27px); margin:13px 0; color:var(--ink); }
+    .panel h2 { color:var(--gold); font:500 clamp(20px,2.5vw,26px)/1.35 'Marcellus',Georgia,serif; margin:0 0 12px; }
+    .panel p { margin:10px 0; }
+    .price { font-size:clamp(27px,4vw,39px); font-weight:800; color:var(--ink); margin:12px 0; }
+    .small { color:var(--ink); font-size:12px; }
+    .price-table { width:100%; border-collapse:collapse; }
+    .price-table td { padding:10px; border-bottom:1px solid rgba(155,111,40,.25); }
+    .price-table td:last-child { text-align:right; font-weight:700; white-space:nowrap; color:var(--gold); }
+    .two>.panel:nth-child(2) h2, .two>.panel:nth-child(2) .small { text-align:center; }
     .photo-section h2 { text-align:center; }
-    .v13-laundry-gallery { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:12px; }
-    .v13-laundry-gallery img { display:block; grid-column:span 2; width:100%; height:220px; object-fit:contain; border:1px solid rgba(229,189,97,.45); border-radius:10px; background:rgba(15,15,17,.8); }
-    .v13-laundry-gallery img:nth-child(4) { grid-column:2 / span 2; }
-    .v13-laundry-gallery img:nth-child(5) { grid-column:4 / span 2; }
-    .v13-center { display:flex; justify-content:center; flex-wrap:wrap; gap:9px; margin:24px auto 20px; text-align:center; }
-    .btn { display:inline-flex; align-items:center; justify-content:center; padding:10px 16px; min-height:43px; border:1px solid rgba(231,192,104,.55); border-radius:7px; background:linear-gradient(145deg,#28282b,#0c0d0f); color:#f5e9d2; text-decoration:none; font-weight:700; font-size:13px; }
-    .btn.gold { background:linear-gradient(125deg,#966015 0%,#e8b950 22%,#fff1ae 47%,#f1c66b 68%,#a87323 100%); border-color:#ffe3a0; color:#201506; }
-    .btn:hover { filter:brightness(1.1); }
-
-    /* Transparent footer: marble visible; no backdrop blur or dark overlay. */
-    .legal { background:transparent; border-top:1px solid rgba(229,189,97,.5); color:#ded3c1; text-align:center; padding:25px 16px; font-size:13px; margin:0; backdrop-filter:none; -webkit-backdrop-filter:none; }
-    .legal strong { color:#f5ede0; }
+    .gallery { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:12px; }
+    .gallery img { display:block; grid-column:span 2; width:100%; height:220px; object-fit:contain; border:1px solid var(--border); border-radius:10px; background:rgba(255,255,255,.88); }
+    .gallery img:nth-child(4) { grid-column:2 / span 2; }
+    .gallery img:nth-child(5) { grid-column:4 / span 2; }
+    .contact-section { margin-top:28px; }
+    .contact-section .panel { text-align:center; }
+    .contact-section h2 { margin-bottom:18px; }
+    .contact-section p { margin:12px 0; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; padding:10px 16px; min-height:43px; border:1px solid var(--border); border-radius:7px; background:rgba(255,255,255,.85); color:var(--ink); text-decoration:none; font-weight:700; font-size:13px; }
+    .btn.gold { background:linear-gradient(125deg,#966015 0%,#e8b950 22%,#fff1ae 47%,#f1c66b 68%,#a87323 100%); border-color:#b58a3a; color:#201506; }
+    .btn:hover { filter:brightness(.96); }
+    .contact-buttons { display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin:16px 0; }
+    .map-image { display:block; width:min(680px,100%); height:auto; margin:14px auto 0; border:1px solid var(--border); border-radius:10px; }
+    .map-caption { text-align:center; font-size:12px; margin:8px auto 0; }
+    .partner { text-align:center; margin:26px auto 4px; padding:16px; border:1px solid var(--border); border-radius:10px; background:rgba(255,255,255,.84); }
+    .partner p { margin:0; }
+    .partner a { color:#8a6323; font-weight:800; text-decoration:underline; text-underline-offset:3px; }
+    .legal { border-top:1px solid var(--border); color:var(--ink); text-align:center; padding:25px 16px; font-size:13px; margin:0; background:rgba(255,255,255,.35); }
+    .footer-inner { width:min(1120px,100%); margin:auto; display:grid; grid-template-columns:65px 1fr 65px; gap:15px; align-items:center; }
+    .footer-logo { width:65px; height:65px; object-fit:contain; }
+    .legal strong { color:var(--ink); }
     .legal p { margin:8px 0; }
-    .legal a { color:#ded3c1; text-decoration:underline; }
-    .legal a[href^="tel:"] { color:#f4d98c; }
-    .legal a:hover { color:#ffda81; }
-    .legal p:last-child { color:#f4d98c; }
-
+    .legal a { color:var(--ink); text-decoration:underline; }
+    .legal a[href^="tel:"] { color:#8a6323; font-weight:700; }
+    .legal p:last-child { color:#8a6323; }
     @media(max-width:760px) {
-      .v13-two { grid-template-columns:1fr; }
-      .v13-laundry-gallery { grid-template-columns:repeat(2,minmax(0,1fr)); }
-      .v13-laundry-gallery img, .v13-laundry-gallery img:nth-child(4), .v13-laundry-gallery img:nth-child(5) { grid-column:auto; }
+      .two { grid-template-columns:1fr; }
+      .gallery { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      .gallery img, .gallery img:nth-child(4), .gallery img:nth-child(5) { grid-column:auto; }
     }
-    @media(max-width:700px) {
-      body { background-image:linear-gradient(rgba(0,0,0,.36),rgba(0,0,0,.472)),url('marbre-mobile.jpg'); }
-    }
+    @media(max-width:700px) { body { background-image:url('Marbre_blanc_mmobile.jpg'); } }
     @media(max-width:520px) {
       .wrap { width:calc(100% - 24px); }
-      .topinner { display:block; text-align:center; }
-      .brand { display:inline-block; font-size:17px; }
-      .nav { justify-content:center; margin-top:9px; gap:10px; }
-      .nav>a { font-size:11px; }
-      .v14-lang { margin-left:0; }
+      .topinner { gap:8px; }
+      .brand { gap:7px; }
+      .brand-logo { width:38px; height:38px; }
+      .brand-text { font-size:clamp(13px,3.5vw,17px); }
+      .brand-text small { font-size:8px; letter-spacing:.07em; }
+      .lang { gap:4px; }
+      .lang a { padding:4px 6px; font-size:11px; }
       .laundry-page { padding-top:20px; }
-      .laundry-intro { padding-inline:5px; }
-      .v13-panel { padding:15px; }
-      .v13-laundry-gallery { gap:9px; }
-      .v13-laundry-gallery img { height:155px; }
+      .section-heading { padding-inline:5px; }
+      .panel { padding:15px; }
+      .gallery { gap:9px; }
+      .gallery img { height:155px; }
       .btn { font-size:12px; padding:9px 10px; }
+      .footer-inner { grid-template-columns:36px 1fr 36px; gap:6px; }
+      .footer-logo { width:36px; height:36px; }
     }
   </style>
 </head>
 <body>
   <header class="topbar">
     <div class="wrap topinner">
-      <a class="brand" href="index.html">T&amp;Y ELITE MOBILITY<small>MOTORBIKE RENTAL · BANGKOK</small></a>
-      <nav aria-label="Main navigation" class="nav">
-        <a href="index.html">Home</a>
-        <a href="all-rental-prices.html">All Prices</a>
-        <a href="our-fleet.html">Real Fleet Gallery</a>
-        <a href="rental-info.html">Rental Info</a>
-        <a href="laundry-service.html" aria-current="page">Laundry</a>
-        <a href="riding-in-bangkok-guide.html">Bangkok Guide</a>
-        <a href="contact.html">Contact</a>
-        <span aria-label="Language" class="v14-lang"><a aria-current="page" href="laundry-service.html">EN</a><a href="th/laundry-service.html">TH</a></span>
-      </nav>
+      <a class="brand" href="/" aria-label="T&Y Elite Laundry Service home">
+        <img class="brand-logo" src="LOGO%20FOND%20BLANC.png" alt="T&Y Elite Laundry Service logo">
+        <span class="brand-text">T&amp;Y ELITE LAUNDRY SERVICE<small>WASH &amp; DRY SERVICE · BANGKOK</small></span>
+      </a>
+      <nav aria-label="Language" class="lang"><a aria-current="page" href="/">EN</a><a href="/th/">TH</a></nav>
     </div>
   </header>
 
   <main class="wrap laundry-page">
-    <div class="laundry-intro">
-      <h1 class="v13-title">Laundry Service</h1>
-      <p class="v13-lead">Fresh, clean laundry while you enjoy Bangkok. We wash, dry, fold and pack your clothes with care.</p>
+    <div class="section-heading">
+      <h1 class="section-title">Laundry Service</h1>
+      <p class="lead">Fresh, clean laundry while you enjoy Bangkok. We wash, dry, fold and pack your clothes with care.</p>
     </div>
-    <div class="v13-two">
-      <div class="v13-panel" style="text-align:center">
+    <div class="two">
+      <div class="panel" style="text-align:center">
         <h2>Wash · Dry · Fold · Pack</h2>
-        <p class="v13-price">100 THB / kg</p>
+        <p class="price">100 THB / kg</p>
         <p>Minimum order: <strong>2 kg</strong> (200 THB)</p>
         <p><strong>No ironing</strong> service available.</p>
       </div>
-      <div class="v13-panel">
+      <div class="panel">
         <h2>Hotel &amp; Home Laundry Service</h2>
-        <table class="v13-table">
-          <tr><td>One-way collection or delivery</td><td class="delivery-price">300 THB</td></tr>
-          <tr><td>Collection and return delivery</td><td class="delivery-price">500 THB</td></tr>
+        <table class="price-table">
+          <tr><td>One-way collection or delivery</td><td>300 THB</td></tr>
+          <tr><td>Collection and return delivery</td><td>500 THB</td></tr>
         </table>
-        <p class="v13-small">Transport charges are additional to the laundry price. Subject to confirmation.</p>
+        <p class="small">Transport charges are additional to the laundry price. Subject to confirmation.</p>
       </div>
     </div>
-    <section class="v13-panel photo-section">
-      <h2>Our Laundry — Real Photos</h2>
-      <div class="v13-laundry-gallery">
-        <img src="Laverie4.jpg" alt="Washing machines at T&amp;Y Elite Mobility laundry" loading="lazy">
-        <img src="Laverie1.jpg" alt="Laundry service clean folded and packed clothing" loading="lazy">
+    <section class="panel photo-section" aria-labelledby="photos-title">
+      <h2 id="photos-title">Our Laundry — Real Photos</h2>
+      <div class="gallery">
+        <img src="Laverie4.jpg" alt="Washing machines at T&Y Elite Laundry Service" loading="lazy">
+        <img src="Laverie1.jpg" alt="Clean folded and packed clothing" loading="lazy">
         <img src="Laverie2.jpg" alt="Clothes prepared by our laundry service" loading="lazy">
         <img src="Laverie3.jpg" alt="Fresh folded laundry in protective packaging" loading="lazy">
         <img src="Laverie5.jpg" alt="Laundry ready for collection" loading="lazy">
       </div>
     </section>
-    <div class="v13-center">
-      <a class="btn gold" href="https://wa.me/66967718495?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20your%20laundry%20service." target="_blank" rel="noopener">Ask About Laundry on WhatsApp</a>
-      <a class="btn" href="index.html">← Home</a>
-    </div>
+
+    <section class="contact-section" aria-labelledby="contact-title">
+      <div class="section-heading"><h2 class="section-title" id="contact-title">Contact &amp; Location</h2></div>
+      <div class="two">
+        <div class="panel">
+          <h2>Get in Touch</h2>
+          <p><strong>Phone / WhatsApp:</strong> <a href="tel:+66641232436">+66 64 123 2436</a></p>
+          <div class="contact-buttons">
+            <a class="btn gold" href="https://wa.me/66641232436?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20your%20laundry%20service." target="_blank" rel="noopener noreferrer">Message on WhatsApp</a>
+          </div>
+          <!-- Add the laundry business's verified LINE and Facebook URLs here once supplied. -->
+        </div>
+        <div class="panel">
+          <h2>Visit Our Shop</h2>
+          <p>62/3 Thanon Phetchaburi, Khwaeng Thanon Phetchaburi, Khet Ratchathewi, Bangkok 10400, Thailand</p>
+          <p><strong>Open daily: 10:00 AM – 8:00 PM</strong></p>
+          <p>Near Pratunam and Phaya Thai.</p>
+          <!-- Replace this generic map-search URL with the verified Google Maps URL of the LAUNDRY listing. -->
+          <a class="btn gold" href="https://www.google.com/maps/search/?api=1&amp;query=62%2F3%20Phetchaburi%20Road%20Ratchathewi%20Bangkok" target="_blank" rel="noopener noreferrer">Open Our Shop on Google Maps ↗</a>
+        </div>
+      </div>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=62%2F3%20Phetchaburi%20Road%20Ratchathewi%20Bangkok" target="_blank" rel="noopener noreferrer" aria-label="Find our laundry on Google Maps">
+        <img class="map-image" src="Map1.png" alt="Map showing our shop in Ratchathewi, Bangkok" loading="lazy">
+      </a>
+    </section>
+
+    <aside class="partner" aria-label="Partner business">
+      <p>If you need a motorbike in Bangkok: <a href="https://www.tyelitemobility.com/" target="_blank" rel="noopener noreferrer">T&amp;Y Elite Mobility – Motorbike Rental</a></p>
+    </aside>
   </main>
 
   <footer class="legal">
-    <strong>T&amp;Y Elite Mobility Co., Ltd.</strong>
-    <p>Motorbike &amp; Scooter Rental · Bangkok, Thailand</p>
-    <p>Phone / WhatsApp: <a href="tel:+66967718495">+66 96 771 8495</a></p>
-    <p><a href="CGL Eng.pdf" target="_blank" rel="noopener">Rental Terms &amp; Conditions (English)</a> · <a href="CGL Thai .pdf" target="_blank" rel="noopener">ข้อกำหนดและเงื่อนไขการเช่า (Thai)</a></p>
-    <p>© 2026 T&amp;Y Elite Mobility Co., Ltd. All rights reserved.</p>
+    <div class="footer-inner">
+      <img class="footer-logo" src="LOGO%20FOND%20BLANC.png" alt="" loading="lazy">
+      <div>
+        <strong>T&amp;Y Elite Laundry Service</strong>
+        <p>Wash &amp; Dry Service · Bangkok, Thailand</p>
+        <p>Phone / WhatsApp: <a href="tel:+66641232436">+66 64 123 2436</a></p>
+        <p>© 2026 T&amp;Y Elite Laundry Service. All rights reserved.</p>
+      </div>
+      <img class="footer-logo" src="LOGO%20FOND%20BLANC.png" alt="" loading="lazy">
+    </div>
   </footer>
 </body>
 </html>
