@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://tyelitelaundry.pages.dev/sitemap.xml
